@@ -3,6 +3,7 @@ let stringEval = '';
 
 const display = document.querySelector('.display');
 
+//funcao responsavel por detectar cliques na tela e separa-los conforme o tipo de dado clicado.
 function clicarButton(value){
     if(isNaN(value) && value !== '.'){
         processaOperadores(value);
